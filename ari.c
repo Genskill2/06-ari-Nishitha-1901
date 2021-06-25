@@ -6,7 +6,7 @@
 
 string ari(string s)
 {
-    int noc = 0,now = 0; nos = 0;
+    int noc = 0,now = 0 , nos = 0;
     for (int i=0; s[i]!='\0' ; i++)
     {
         if (isalnum(s[i]))
@@ -24,7 +24,7 @@ string ari(string s)
     }
     
         float a=0;
-        a= (4.71*((float)noc/(float)now)+(0.5*((float)now/(float)nos))-21.43;
+        a= 4.71*((float)noc/(float)now)+(0.5*((float)now/(float)nos))-21.43;
         int r_a=a+1;
           
         if (r_a==1)
