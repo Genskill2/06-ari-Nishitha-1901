@@ -3,7 +3,7 @@
 #include<string.h>
 #include<math.h>
 
-string ari(string s)
+string *ari(string *s)
 {
     int noc = 0,now = 0; nos = 0;
     for (int i=0; s[i]!='\0' ; i++)
